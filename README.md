@@ -79,3 +79,6 @@ After running the above steps - you should be able to browse to http://localhost
 * You must include an authenticated connection from Kubernetes to the database
     * Using google workload identity so that permissions for connecting to the DB are controlled via IAM service accounts
     * Workload identity is linked to the kubernetes service account the python container is using
+
+* Are packages up to date
+    * I used the latest editions of helm, terraform, and the google providers for terraform
